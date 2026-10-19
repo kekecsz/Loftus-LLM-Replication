@@ -1,0 +1,105 @@
+{
+  "model_requested": "gemini-3.5-flash-lite",
+  "model_version": "gemini-3.5-flash-lite",
+  "results_file": "main_gemini-3.5-flash-lite_gemini-3.5-flash-lite_low.csv",
+  "design": {
+    "MODEL": "gemini-3.5-flash-lite",
+    "PROVIDER": "google",
+    "REASONING_EFFORT": "low",
+    "TEMPERATURE": null,
+    "IMAGE_DETAIL": "high",
+    "MAX_OUTPUT_TOKENS": 4000,
+    "VIDEOS": [
+      "V1",
+      "V2",
+      "V3",
+      "V4",
+      "V5"
+    ],
+    "NOISE_SDS": [
+      0,
+      25,
+      50,
+      80
+    ],
+    "N_REPS": 5,
+    "RANDOM_SEED": 20261011,
+    "CONFIRMATORY_CODES": [
+      "s1",
+      "s2",
+      "s3",
+      "s4",
+      "s5"
+    ]
+  },
+  "input_sha256": {
+    "questions": "002c43ea60c15c1d187f3387d6c7c6d9509e6c1440fef0e586af18a863a66998",
+    "verbs": "82b1db7f340b1c910ef674598b79f364acbe310cc3cdd9ff71af334fdcc9eca2",
+    "manifest": "ecdd2c134522e65be8ecfa4f94e84d22b3bda3de8424618389c350576b43da95"
+  },
+  "sessions": [
+    {
+      "start_utc": "2026-10-12T08:26:58+00:00",
+      "end_utc": "2026-10-12T09:04:54+00:00",
+      "status": "finished",
+      "limits": {
+        "PRICES_PER_1M": {
+          "provider": "google",
+          "price_input": 0.3,
+          "price_output": 2.5
+        },
+        "MAX_CALLS": 900,
+        "MAX_COST_USD": 10.0,
+        "MAX_RETRIES": 3,
+        "RETRY_WAITS_SEC": [
+          5,
+          15,
+          45
+        ],
+        "MAX_CONSECUTIVE_FAILURES": 5,
+        "REQUEST_TIMEOUT_SEC": 180,
+        "MIN_INPUT_TOKENS_PER_FRAME": 50
+      },
+      "python_version": "3.14.4",
+      "provider": "google",
+      "sdk": "google-genai",
+      "sdk_version": "2.29.0",
+      "request_settings": {
+        "thinking_config": {
+          "thinking_level": "LOW"
+        },
+        "max_output_tokens": 4000,
+        "temperature": "default",
+        "image_detail": "high"
+      },
+      "test_call": {
+        "stimulus_id": "V1_sd80",
+        "question_code": "sc",
+        "repetition_index": 4,
+        "llm_model_version": "gemini-3.5-flash-lite",
+        "llm_answer_raw": "40",
+        "llm_answer": "40",
+        "finish_status": "completed",
+        "tokens_input": 23373,
+        "tokens_input_cached": 0,
+        "tokens_output": 301,
+        "tokens_reasoning": 299,
+        "total_cost": "0.007764",
+        "response_id": "z5nMasjXMbmIvdIPvqS2kAc",
+        "latency_sec": "4.21",
+        "provider_reported_cost_usd": null
+      },
+      "calls_recorded": 800,
+      "invalid_responses": 0,
+      "cost_recorded_usd": 5.936843,
+      "stop_reason": "all planned calls done",
+      "cost_session_usd": 5.944607
+    }
+  ],
+  "totals": {
+    "calls_completed": 800,
+    "invalid_responses": 0,
+    "cost_recorded_calls_usd": 5.936843,
+    "cost_test_calls_usd": 0.007764
+  }
+}

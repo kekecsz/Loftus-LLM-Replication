@@ -1,0 +1,78 @@
+anchor_set,axis,pole,text
+S1,severity,low,minor
+S1,severity,low,trivial
+S1,severity,low,slight
+S1,severity,low,light
+S1,severity,low,negligible
+S1,severity,low,modest
+S1,severity,low,minimal
+S1,severity,low,superficial
+S1,severity,high,severe
+S1,severity,high,critical
+S1,severity,high,catastrophic
+S1,severity,high,devastating
+S1,severity,high,fatal
+S1,severity,high,extreme
+S1,severity,high,massive
+S1,severity,high,disastrous
+S2,severity,low,small dent on the door
+S2,severity,low,tiny crack in the glass
+S2,severity,low,scuffed wheel cover on curb
+S2,severity,low,minor scratch along the side
+S2,severity,low,light smudge on the fender
+S2,severity,high,completely crushed vehicle metal frame
+S2,severity,high,shattered glass covering the road
+S2,severity,high,severely mangled passenger seating area
+S2,severity,high,utterly destroyed engine compartment parts
+S2,severity,high,fatal injuries inside the vehicle
+S2,severity,high,tragic loss of human life
+S2,severity,high,catastrophic structural vehicle collapse
+S2,severity,high,demolished chassis burning fiercely
+S3,severity,low,scratch
+S3,severity,low,bruise
+S3,severity,low,nick
+S3,severity,low,smudge
+S3,severity,low,dent
+S3,severity,low,stain
+S3,severity,low,scuff
+S3,severity,low,tear
+S3,severity,high,death
+S3,severity,high,fracture
+S3,severity,high,ruin
+S3,severity,high,destruction
+S3,severity,high,mutilation
+S3,severity,high,annihilation
+S3,severity,high,wreckage
+S3,severity,high,fatality
+V1,speed,low,slow
+V1,speed,low,sluggish
+V1,speed,low,creeping
+V1,speed,low,crawling
+V1,speed,low,tardy
+V1,speed,low,leisurely
+V1,speed,low,dragging
+V1,speed,low,halting
+V1,speed,high,fast
+V1,speed,high,rapid
+V1,speed,high,quick
+V1,speed,high,swift
+V1,speed,high,speedy
+V1,speed,high,hasty
+V1,speed,high,brisk
+V1,speed,high,fleet
+V2,speed,low,car moving at snail pace
+V2,speed,low,vehicle rolling down the lane
+V2,speed,low,automobile creeping along the street
+V2,speed,low,truck driving very slowly forward
+V2,speed,low,van drifting at minimal speed
+V2,speed,low,bus progressing at walking pace
+V2,speed,low,auto moving with gentle motion
+V2,speed,low,car pacing down the road
+V2,speed,high,car speeding down the highway
+V2,speed,high,vehicle racing along the road
+V2,speed,high,automobile flying past the lane
+V2,speed,high,truck hurtling down the street
+V2,speed,high,van zooming past the asphalt
+V2,speed,high,bus tearing down the motorway
+V2,speed,high,auto rushing along the route
+V2,speed,high,car driving at high velocity

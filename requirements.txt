@@ -1,0 +1,8 @@
+# Data collection and analysis scripts (run_pilot.py, run_main.py, verb_severity.py)
+# Versions used for the data in results/ (Python 3.14.4)
+openai==3.28.0
+anthropic==1.13.0
+google-genai==2.29.0
+python-dotenv==1.2.4
+numpy==2.5.3
+matplotlib==3.11.2

@@ -1,0 +1,10 @@
+Sources of the raw videos (V1N.mp4 - V5N.mp4)
+
+V1-V4: compilation of dashcam/CCTV car-crash videos
+        https://www.kaggle.com/datasets/fahaddalwai/cctvfootagevideo
+
+V5:    dashcam video of a T-bone crash
+        https://www.youtube.com/watch?v=FD1sacdeW8E
+
+Impact times (first contact) are in impact_times.csv; the stimuli are built from these
+videos with make_stimuli.py.

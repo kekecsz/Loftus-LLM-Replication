@@ -1,0 +1,219 @@
+{
+  "model_requested": "grok-4.7",
+  "model_version": "grok-4.7",
+  "results_file": "main_grok-4.7_grok-4.7_low.csv",
+  "design": {
+    "MODEL": "grok-4.7",
+    "PROVIDER": "xai",
+    "REASONING_EFFORT": "low",
+    "TEMPERATURE": null,
+    "IMAGE_DETAIL": "high",
+    "MAX_OUTPUT_TOKENS": 4000,
+    "VIDEOS": [
+      "V1",
+      "V2",
+      "V3",
+      "V4",
+      "V5"
+    ],
+    "NOISE_SDS": [
+      0,
+      25,
+      50,
+      80
+    ],
+    "N_REPS": 5,
+    "RANDOM_SEED": 20261011,
+    "CONFIRMATORY_CODES": [
+      "s1",
+      "s2",
+      "s3",
+      "s4",
+      "s5"
+    ]
+  },
+  "input_sha256": {
+    "questions": "002c43ea60c15c1d187f3387d6c7c6d9509e6c1440fef0e586af18a863a66998",
+    "verbs": "82b1db7f340b1c910ef674598b79f364acbe310cc3cdd9ff71af334fdcc9eca2",
+    "manifest": "ecdd2c134522e65be8ecfa4f94e84d22b3bda3de8424618389c350576b43da95"
+  },
+  "sessions": [
+    {
+      "start_utc": "2026-10-11T23:00:17+00:00",
+      "end_utc": "2026-10-11T23:01:11+00:00",
+      "status": "stopped",
+      "limits": {
+        "PRICES_PER_1M": {
+          "provider": "xai",
+          "price_input": 2.0,
+          "price_output": 6.0
+        },
+        "MAX_CALLS": 900,
+        "MAX_COST_USD": 5.0,
+        "MAX_RETRIES": 3,
+        "RETRY_WAITS_SEC": [
+          5,
+          15,
+          45
+        ],
+        "MAX_CONSECUTIVE_FAILURES": 5,
+        "REQUEST_TIMEOUT_SEC": 180,
+        "MIN_INPUT_TOKENS_PER_FRAME": 50
+      },
+      "python_version": "3.14.4",
+      "provider": "xai",
+      "sdk": "openai",
+      "sdk_version": "3.28.0",
+      "request_settings": {
+        "reasoning": {
+          "effort": "low"
+        },
+        "max_output_tokens": 4000,
+        "temperature": "default",
+        "image_detail": "high"
+      },
+      "test_call": {
+        "stimulus_id": "V1_sd80",
+        "question_code": "sc",
+        "repetition_index": 4,
+        "llm_model_version": "grok-4.7",
+        "llm_answer_raw": "40",
+        "llm_answer": "40",
+        "finish_status": "completed",
+        "tokens_input": 7342,
+        "tokens_input_cached": 1152,
+        "tokens_output": 355,
+        "tokens_reasoning": 354,
+        "total_cost": "0.016814",
+        "response_id": "6b1daf40-da84-963f-888d-4f398ca78e27",
+        "latency_sec": "12.14",
+        "provider_reported_cost_usd": null
+      },
+      "calls_recorded": 0,
+      "invalid_responses": 0,
+      "cost_recorded_usd": 0.0,
+      "stop_reason": "not confirmed",
+      "cost_session_usd": 0.016814
+    },
+    {
+      "start_utc": "2026-10-11T23:01:55+00:00",
+      "end_utc": "2026-10-11T23:02:10+00:00",
+      "status": "stopped",
+      "limits": {
+        "PRICES_PER_1M": {
+          "provider": "xai",
+          "price_input": 2.0,
+          "price_output": 6.0
+        },
+        "MAX_CALLS": 900,
+        "MAX_COST_USD": 5.0,
+        "MAX_RETRIES": 3,
+        "RETRY_WAITS_SEC": [
+          5,
+          15,
+          45
+        ],
+        "MAX_CONSECUTIVE_FAILURES": 5,
+        "REQUEST_TIMEOUT_SEC": 180,
+        "MIN_INPUT_TOKENS_PER_FRAME": 50
+      },
+      "python_version": "3.14.4",
+      "provider": "xai",
+      "sdk": "openai",
+      "sdk_version": "3.28.0",
+      "request_settings": {
+        "reasoning": {
+          "effort": "low"
+        },
+        "max_output_tokens": 4000,
+        "temperature": "default",
+        "image_detail": "high"
+      },
+      "test_call": {
+        "stimulus_id": "V1_sd80",
+        "question_code": "sc",
+        "repetition_index": 4,
+        "llm_model_version": "grok-4.7",
+        "llm_answer_raw": "50",
+        "llm_answer": "50",
+        "finish_status": "completed",
+        "tokens_input": 7342,
+        "tokens_input_cached": 7296,
+        "tokens_output": 700,
+        "tokens_reasoning": 699,
+        "total_cost": "0.018884",
+        "response_id": "b2dd876f-f510-914e-ba94-385101de5c4e",
+        "latency_sec": "16.07",
+        "provider_reported_cost_usd": null
+      },
+      "calls_recorded": 0,
+      "invalid_responses": 0,
+      "cost_recorded_usd": 0.0,
+      "stop_reason": "not confirmed",
+      "cost_session_usd": 0.018884
+    },
+    {
+      "start_utc": "2026-10-11T23:02:54+00:00",
+      "end_utc": "2026-10-12T02:55:41+00:00",
+      "status": "finished",
+      "limits": {
+        "PRICES_PER_1M": {
+          "provider": "xai",
+          "price_input": 2.0,
+          "price_output": 6.0
+        },
+        "MAX_CALLS": 900,
+        "MAX_COST_USD": 20.0,
+        "MAX_RETRIES": 3,
+        "RETRY_WAITS_SEC": [
+          5,
+          15,
+          45
+        ],
+        "MAX_CONSECUTIVE_FAILURES": 5,
+        "REQUEST_TIMEOUT_SEC": 180,
+        "MIN_INPUT_TOKENS_PER_FRAME": 50
+      },
+      "python_version": "3.14.4",
+      "provider": "xai",
+      "sdk": "openai",
+      "sdk_version": "3.28.0",
+      "request_settings": {
+        "reasoning": {
+          "effort": "low"
+        },
+        "max_output_tokens": 4000,
+        "temperature": "default",
+        "image_detail": "high"
+      },
+      "test_call": {
+        "stimulus_id": "V1_sd80",
+        "question_code": "sc",
+        "repetition_index": 4,
+        "llm_model_version": "grok-4.7",
+        "llm_answer_raw": "40",
+        "llm_answer": "40",
+        "finish_status": "completed",
+        "tokens_input": 7342,
+        "tokens_input_cached": 7296,
+        "tokens_output": 932,
+        "tokens_reasoning": 931,
+        "total_cost": "0.020276",
+        "response_id": "dd9a4d11-cfd1-96de-a6ec-5683eec52b6c",
+        "latency_sec": "21.62",
+        "provider_reported_cost_usd": null
+      },
+      "calls_recorded": 800,
+      "invalid_responses": 0,
+      "cost_recorded_usd": 14.934148,
+      "stop_reason": "all planned calls done",
+      "cost_session_usd": 14.954424
+    }
+  ],
+  "totals": {
+    "calls_completed": 800,
+    "invalid_responses": 0,
+    "cost_recorded_calls_usd": 14.934148,
+    "cost_test_calls_usd": 0.055974
+  }
+}

@@ -1,0 +1,4 @@
+template_id,template,reference_sentence
+T1,The car {verb} the other car.,The two cars' paths met.
+T2,"Right before the accident, the faster car {verb} the other car.","Right before the accident, the two cars' paths met."
+T3,"On the highway, one vehicle {verb} another vehicle.","On the highway, the two vehicles' paths met."

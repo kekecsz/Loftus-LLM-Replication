@@ -1,0 +1,6 @@
+# Stimulus generation (make_stimuli.py)
+# Versions used to build the stimuli in stimuli/ (Python 3.14.4). Use exactly these to
+# regenerate identical noise: numpy does not guarantee the same random stream across versions.
+opencv-python==4.13.0.92
+numpy==2.4.4
+imageio-ffmpeg==0.6.0

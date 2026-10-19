@@ -1,0 +1,10 @@
+# Keep data files byte-identical on every system: no line-ending conversion.
+# The *_runinfo.json files store SHA-256 hashes of config/questions.csv, config/verbs.csv
+# and stimuli/manifest.csv, which must still match after a clone.
+*.csv -text
+*.json -text
+*.txt -text
+
+# Binary files
+*.mp4 binary
+*.png binary

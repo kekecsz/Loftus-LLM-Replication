@@ -1,0 +1,9 @@
+code,verb_phrase,embedding_severity_z,embedding_speed_z
+sc,paths met,0.0493,-0.5121
+s1,touched,-1.3155,-1.3336
+s2,bumped into,-1.0096,-0.7294
+s3,contacted,-0.4008,-0.4817
+s4,collided with,0.6844,0.3036
+s5,smashed into,1.0477,0.9426
+sx,hit,-0.0623,0.9153
+sy,crashed into,1.056,0.3832

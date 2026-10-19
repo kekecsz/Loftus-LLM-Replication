@@ -1,0 +1,90 @@
+{
+  "model_requested": "gpt-6.1-sol",
+  "model_version": "gpt-6.1-sol",
+  "results_file": "main_gpt-6.1-sol_gpt-6.1-sol_low.csv",
+  "design": {
+    "MODEL": "gpt-6.1-sol",
+    "REASONING_EFFORT": "low",
+    "TEMPERATURE": null,
+    "IMAGE_DETAIL": "high",
+    "MAX_OUTPUT_TOKENS": 4000,
+    "VIDEOS": [
+      "V1",
+      "V2",
+      "V3",
+      "V4",
+      "V5"
+    ],
+    "NOISE_SDS": [
+      0,
+      25,
+      50,
+      80
+    ],
+    "N_REPS": 5,
+    "RANDOM_SEED": 20261011,
+    "CONFIRMATORY_CODES": [
+      "s1",
+      "s2",
+      "s3",
+      "s4",
+      "s5"
+    ]
+  },
+  "input_sha256": {
+    "questions": "002c43ea60c15c1d187f3387d6c7c6d9509e6c1440fef0e586af18a863a66998",
+    "verbs": "82b1db7f340b1c910ef674598b79f364acbe310cc3cdd9ff71af334fdcc9eca2",
+    "manifest": "ecdd2c134522e65be8ecfa4f94e84d22b3bda3de8424618389c350576b43da95"
+  },
+  "sessions": [
+    {
+      "start_utc": "2026-10-11T14:44:40+00:00",
+      "end_utc": "2026-10-11T17:14:29+00:00",
+      "status": "finished",
+      "limits": {
+        "PRICE_INPUT_PER_1M": 2.0,
+        "PRICE_OUTPUT_PER_1M": 10.0,
+        "MAX_CALLS": 900,
+        "MAX_COST_USD": 25.0,
+        "MAX_RETRIES": 3,
+        "RETRY_WAITS_SEC": [
+          5,
+          15,
+          45
+        ],
+        "MAX_CONSECUTIVE_FAILURES": 5,
+        "REQUEST_TIMEOUT_SEC": 180,
+        "MIN_INPUT_TOKENS_PER_FRAME": 50
+      },
+      "python_version": "3.14.4",
+      "openai_sdk_version": "3.28.0",
+      "test_call": {
+        "stimulus_id": "V1_sd80",
+        "question_code": "sc",
+        "repetition_index": 4,
+        "llm_model_version": "gpt-6.1-sol",
+        "llm_answer_raw": "30",
+        "llm_answer": "30",
+        "finish_status": "completed",
+        "tokens_input": 6321,
+        "tokens_input_cached": 0,
+        "tokens_output": 115,
+        "tokens_reasoning": 108,
+        "total_cost": "0.013792",
+        "response_id": "resp_00404871b84567e2016acba0d24bf087d2a700a72acbbfaaf3",
+        "latency_sec": "11.65"
+      },
+      "calls_recorded": 800,
+      "invalid_responses": 0,
+      "cost_recorded_usd": 11.37172,
+      "stop_reason": "all planned calls done",
+      "cost_session_usd": 11.385512
+    }
+  ],
+  "totals": {
+    "calls_completed": 800,
+    "invalid_responses": 0,
+    "cost_recorded_calls_usd": 11.37172,
+    "cost_test_calls_usd": 0.013792
+  }
+}

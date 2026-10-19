@@ -1,0 +1,123 @@
+{
+  "model_requested": "deepseek-flash",
+  "model_version": "deepseek-flash",
+  "results_file": "main_deepseek-flash_deepseek-flash_low.csv",
+  "design": {
+    "MODEL": "deepseek-flash",
+    "PROVIDER": "deepseek",
+    "REASONING_EFFORT": "low",
+    "TEMPERATURE": null,
+    "IMAGE_DETAIL": "high",
+    "MAX_OUTPUT_TOKENS": 4000,
+    "VIDEOS": [
+      "V1",
+      "V2",
+      "V3",
+      "V4",
+      "V5"
+    ],
+    "NOISE_SDS": [
+      0,
+      25,
+      50,
+      80
+    ],
+    "N_REPS": 5,
+    "RANDOM_SEED": 20261011,
+    "CONFIRMATORY_CODES": [
+      "s1",
+      "s2",
+      "s3",
+      "s4",
+      "s5"
+    ]
+  },
+  "input_sha256": {
+    "questions": "002c43ea60c15c1d187f3387d6c7c6d9509e6c1440fef0e586af18a863a66998",
+    "verbs": "82b1db7f340b1c910ef674598b79f364acbe310cc3cdd9ff71af334fdcc9eca2",
+    "manifest": "ecdd2c134522e65be8ecfa4f94e84d22b3bda3de8424618389c350576b43da95"
+  },
+  "sessions": [
+    {
+      "start_utc": "2026-10-12T09:30:23+00:00",
+      "end_utc": "2026-10-12T13:47:16+00:00",
+      "status": "finished",
+      "limits": {
+        "PRICES_PER_1M": {
+          "provider": "deepseek",
+          "price_input": 0.15,
+          "price_output": 0.6,
+          "peak": {
+            "price_input": 0.3,
+            "price_output": 1.2,
+            "utc_hours": [
+              [
+                1,
+                4
+              ],
+              [
+                6,
+                10
+              ]
+            ],
+            "weekdays_only": true
+          }
+        },
+        "MAX_CALLS": 900,
+        "MAX_COST_USD": 10.0,
+        "MAX_RETRIES": 3,
+        "RETRY_WAITS_SEC": [
+          5,
+          15,
+          45
+        ],
+        "MAX_CONSECUTIVE_FAILURES": 5,
+        "REQUEST_TIMEOUT_SEC": 180,
+        "MIN_INPUT_TOKENS_PER_FRAME": 50
+      },
+      "python_version": "3.14.4",
+      "provider": "deepseek",
+      "sdk": "openai",
+      "sdk_version": "3.28.0",
+      "request_settings": {
+        "reasoning_effort": "low",
+        "extra_body": {
+          "thinking": {
+            "type": "enabled"
+          }
+        },
+        "max_output_tokens": 4000,
+        "temperature": "default",
+        "image_detail": "high"
+      },
+      "test_call": {
+        "stimulus_id": "V1_sd80",
+        "question_code": "sc",
+        "repetition_index": 4,
+        "llm_model_version": "deepseek-flash",
+        "llm_answer_raw": "50",
+        "llm_answer": "50",
+        "finish_status": "completed",
+        "tokens_input": 4351,
+        "tokens_input_cached": 0,
+        "tokens_output": 1828,
+        "tokens_reasoning": 1826,
+        "total_cost": "0.003499",
+        "response_id": "504d223c-2573-49a5-933d-db6a15a9c5cf",
+        "latency_sec": "11.94",
+        "provider_reported_cost_usd": null
+      },
+      "calls_recorded": 800,
+      "invalid_responses": 354,
+      "cost_recorded_usd": 2.319935,
+      "stop_reason": "all planned calls done",
+      "cost_session_usd": 2.323434
+    }
+  ],
+  "totals": {
+    "calls_completed": 800,
+    "invalid_responses": 354,
+    "cost_recorded_calls_usd": 2.319935,
+    "cost_test_calls_usd": 0.003499
+  }
+}

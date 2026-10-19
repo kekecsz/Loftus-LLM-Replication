@@ -1,0 +1,13 @@
+axis,lower_verb,higher_verb,pair,n_fits,swap_rate_vs_full_anchor_set,reversed_vs_consensus_rate
+severity,s1,s4,touched < bumped into,180,0.0333,0.2722
+severity,s4,s2,bumped into < contacted,180,0.0111,0.0111
+severity,s2,s3,contacted < hit,180,0.0,0.3222
+severity,s3,s5,hit < collided with,180,0.0,0.0889
+severity,s5,s7,collided with < smashed into,180,0.05,0.1833
+severity,s7,s6,smashed into < crashed into,180,0.0667,0.5222
+speed,s1,s4,touched < bumped into,128,0.0703,0.0703
+speed,s4,s2,bumped into < contacted,128,0.0547,0.2891
+speed,s2,s5,contacted < collided with,128,0.0234,0.2266
+speed,s5,s6,collided with < crashed into,128,0.0312,0.2812
+speed,s6,s3,crashed into < hit,128,0.0,0.5
+speed,s3,s7,hit < smashed into,128,0.0,0.375
